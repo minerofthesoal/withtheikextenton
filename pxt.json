@@ -1,0 +1,29 @@
+{
+    "name": "rag",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "IK extension": "github:bladebaillio/ik-extension#7683c886519d6fa24b259c46dd2c0ecf3c93c172"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.53",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
